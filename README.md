@@ -137,6 +137,17 @@ plainwhite:
   Third Line.
 ```
 
+**Search-bar**
+
+Search-bar can be enabled by adding the following line to `config.yml`
+
+```yaml
+plainwhite:
+  search: true
+```
+
+Search is powered by [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search) Jekyll plugin. A `search.json` containing post meta and contents will be generated in site root folder. Plugin JavaScript will then match for posts based on user input. More info and `search.json` customization documentation can be found in plugin repository.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
